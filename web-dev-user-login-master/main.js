@@ -33,7 +33,7 @@
             // Both Wrong
             else {
                 document.getElementById('welcome').style.color = 'white';
-                document.getElementById('welcome').innerHTML = ' <em>Sign in Unsuccessful<em> Check Username and Password and try again';
+                document.getElementById('welcome').innerHTML = ' <em>Sign in Unsuccessful.<em> Check Username and Password and try again';
                 document.getElementById('username').style.backgroundColor = 'red';
                 document.getElementById('password').style.backgroundColor = 'red';
             }
